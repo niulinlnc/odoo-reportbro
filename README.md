@@ -34,3 +34,6 @@ Postman服务测试文件：
 "data":{},
 "isTestData": false
 }
+
+![image](https://github.com/inspurodoo/odoo-reportbro/blob/master/static/description/design.png)
+![image](https://github.com/inspurodoo/odoo-reportbro/blob/master/static/description/preview.png)
