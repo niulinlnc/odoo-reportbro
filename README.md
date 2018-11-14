@@ -36,4 +36,4 @@ Postman服务测试文件：
 }
 
 ![image](https://github.com/inspurodoo/odoo-reportbro/blob/master/static/description/design.png)
-![image]()
+![image](https://github.com/inspurodoo/odoo-reportbro/blob/master/static/description/preview.png)
