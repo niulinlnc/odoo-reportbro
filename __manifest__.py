@@ -1,12 +1,14 @@
 {
-    'name': '打印设计',
-    'depends': ['base'],
-    'author': 'www.mypscloud.com',
+    'name': 'Print Designer',
+    'version': '12.0',
+    'author': 'yanhuaqiang@inspur.com',
+    'category': 'Accounting',
     'summary': """
-            PSCloud Print
+            Print Designer
             """,
     'sequence': 100,
-    'website': 'www.mypscloud.com',
+    'website': '',
+    'depends': ['base'],
     'data': [
         'views/menu_root.xml',
         'views/print_design_define.xml',
@@ -16,8 +18,7 @@
         'views/print_design_template_js.xml',
         'views/print_preview_template_js.xml',
         'views/print_button.xml',
-        # 'wizard/print_account_act.xml', // 动作里面添加的打印功能,暂时去掉。story
-        # 'data/print_account_move.xml',
+        'data/print_account_move.xml',
         'security/ir.model.access.csv',
         ],
     'qweb': [
@@ -32,5 +33,7 @@
     'js': ["static/src/dist/ext/*.js"],
     'css': ["static/src/dist/*.css"],
     'css': ["static/src/dist/ext/*.css"],
+    'installable': True,
+    'auto_install': False,
     'application': True
 }
