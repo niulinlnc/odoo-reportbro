@@ -18,7 +18,6 @@
         'views/print_design_template_js.xml',
         'views/print_preview_template_js.xml',
         'views/print_button.xml',
-        # 'wizard/print_account_act.xml', // 动作里面添加的打印功能,暂时去掉。story
         'data/print_account_move.xml',
         'security/ir.model.access.csv',
         ],
@@ -34,5 +33,7 @@
     'js': ["static/src/dist/ext/*.js"],
     'css': ["static/src/dist/*.css"],
     'css': ["static/src/dist/ext/*.css"],
+    'installable': True,
+    'auto_install': False,
     'application': True
 }
