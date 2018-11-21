@@ -3,13 +3,13 @@
     <data noupdate="1">
         <record forcecreate="True" id="account_move_1" model="print.design.bill">
             <field name="name">凭证制单</field>
-            <field name="table_name"  ref="account_china.model_account_move"/>
+            <field name="table_name"  ref="account.model_account_move"/>
         </record>
     </data>
     <data noupdate="1">
         <record forcecreate="True" id="account_move_11" model="print.design.bill2model">
             <field name="print_design_bill_id" ref="account_move_1"></field>
-            <field name="model_id" ref="account_china.model_account_move"/>
+            <field name="model_id" ref="account.model_account_move"/>
             <field name="name">会计分录</field>
             <field name="table_description">凭证表头</field>
             <field name="symbol">1</field>
@@ -18,7 +18,7 @@
         </record>
         <record forcecreate="True" id="account_move_12" model="print.design.bill2model">
             <field name="print_design_bill_id" ref="account_move_1"></field>
-            <field name="model_id" ref="account_china.model_account_move_line" />
+            <field name="model_id" ref="account.model_account_move_line" />
             <field name="name">日记账项</field>
             <field name="table_description">凭证表体</field>
             <field name="symbol">2</field>
@@ -27,7 +27,7 @@
         </record>
         <record forcecreate="True" id="account_move_13" model="print.design.bill2model">
             <field name="print_design_bill_id" ref="account_move_1"></field>
-            <field name="model_id" ref="account_china.model_account_account"/>
+            <field name="model_id" ref="account.model_account_account"/>
             <field name="name">科目</field>
             <field name="table_description">科目表</field>
             <field name="symbol">3</field>

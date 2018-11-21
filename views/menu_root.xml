@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <data>
-        <menuitem id="menu_print_root" name="打印" groups="base.group_user"></menuitem>
+        <menuitem
+            id="menu_print_root"
+            name="打印设计"
+            web_icon="odoo-reportbro,static/description/icon.png"
+            groups="base.group_user"
+        />
     </data>
 </odoo>

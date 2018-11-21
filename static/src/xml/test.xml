@@ -6,6 +6,6 @@
             <div>
                 <button id="btn_print" class="btn btn-sm btn-default">打印</button>
             </div>
-            <script src="/inspur_print/static/src/js/test_select.js"></script>
+            <script src="/odoo-reportbro/static/src/js/test_select.js"></script>
         </t>
 </templates>

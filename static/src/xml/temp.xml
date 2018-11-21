@@ -7,6 +7,6 @@
             <div class="modal-footer">
                 <button class="btn btn-primary btn-sm" id="btn_print">打印</button>
             </div>
-            <script src="/inspur_print/static/src/js/temp_select.js"></script>
+            <script src="/odoo-reportbro/static/src/js/temp_select.js"></script>
         </t>
 </templates>

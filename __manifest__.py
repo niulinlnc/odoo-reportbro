@@ -1,5 +1,5 @@
 {
-    'name': 'Print Designer',
+    'name': '打印设计',
     'version': '12.0',
     'author': 'yanhuaqiang@inspur.com',
     'category': 'Accounting',
