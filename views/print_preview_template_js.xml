@@ -2,14 +2,14 @@
 <odoo>
    <template id="inspur_preview_assets_backend_id" name="inspur_preview_assets_backend" inherit_id="web.assets_backend">
         <xpath expr="." position="inside">
-            <script type="text/javascript" src="/inspur_print/static/src/js/print_preview_template.js"></script>
-            <link href="/inspur_print/static/src/dist/ext/spectrum.css" rel="stylesheet" type="text/css"/>
-            <link href="/inspur_print/static/src/dist/reportbro.css" rel="stylesheet" type="text/css"/>
-            <link href="/inspur_print/static/font/font.css" rel="stylesheet" type="text/css"/>
-            <script src="/inspur_print/static/src/dist/ext/spectrum.js"></script>
-            <script src="/inspur_print/static/src/dist/ext/autosize.js"></script>
-            <script src="/inspur_print/static/src/dist/ext/JsBarcode.all.min.js"></script>
-            <script src="/inspur_print/static/src/dist/reportbro.js"></script>
+            <script type="text/javascript" src="/odoo-reportbro/static/src/js/print_preview_template.js"></script>
+            <link href="/odoo-reportbro/static/src/dist/ext/spectrum.css" rel="stylesheet" type="text/css"/>
+            <link href="/odoo-reportbro/static/src/dist/reportbro.css" rel="stylesheet" type="text/css"/>
+            <link href="/odoo-reportbro/static/font/font.css" rel="stylesheet" type="text/css"/>
+            <script src="/odoo-reportbro/static/src/dist/ext/spectrum.js"></script>
+            <script src="/odoo-reportbro/static/src/dist/ext/autosize.js"></script>
+            <script src="/odoo-reportbro/static/src/dist/ext/JsBarcode.all.min.js"></script>
+            <script src="/odoo-reportbro/static/src/dist/reportbro.js"></script>
         </xpath>
     </template>
 </odoo>

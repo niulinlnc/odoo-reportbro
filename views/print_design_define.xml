@@ -58,7 +58,7 @@
                                         <strong><span style="color:#00A09D;"><field name="name"/></span></strong>
                                     </div>
                                     <div class="col-xs-6">
-                                        <strong><span class="pull-right"><i class="fa fa-clock-o"/><field name="create_date"/></span></strong>
+                                        <strong><span class="pull-right"><field name="create_date"/></span></strong>
                                     </div>
                                 </div>
                                 <div class="row">
